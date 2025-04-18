@@ -1,0 +1,82 @@
+.cars-page {
+    padding: 20px;
+  }
+  
+  .cars-top-bar {
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .cars-top-bar input {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .car-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .car-tag {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .blue-tag {
+    background-color: #6c63ff;
+  }
+  
+  /* Карточки с аккордеоном */
+  .cars-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .car-details {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .car-header {
+    cursor: pointer;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .car-header span {
+    margin-left: 20px;
+    color: #555;
+    font-weight: normal;
+  }
+  
+  .car-steps {
+    padding: 0 20px 20px 20px;
+  }
+  
+  .car-steps ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .car-steps li {
+    margin: 6px 0;
+  }
+  
+  .arrow {
+    font-size: 16px;
+    color: #999;
+  }
+  

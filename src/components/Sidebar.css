@@ -1,0 +1,133 @@
+
+.sidebar {
+  width: 220px;
+  background-color: #E2E8F0;
+  border-radius: 24px;
+  margin: 16px;
+  min-height: calc(100vh - 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.sidebar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.sidebar-logo-img {
+  margin-top: 25px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  flex: 1;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.3rem;
+  border-radius: 12px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.menu-item:hover {
+  background-color: #D0D4DE;
+}
+.menu-item.active {
+  background-color: #454D63; 
+  color: #fff;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.sidebar-user {
+  margin: 1rem;
+  position: relative;
+}
+
+.user-dropdown-wrapper {
+  position: relative;
+}
+
+.user-btn {
+  width: 100%;
+  background: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-btn:hover {
+  background-color: #e2e2e2;
+}
+
+.arrow-down {
+  font-size: 12px;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-top: 4px;
+  min-width: 120px;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.user-dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  text-align: left;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+.user-dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.auth-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 8px;
+}
+.auth-links li {
+  margin-bottom: 5px;
+}
+.auth-links .menu-item {
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0.5rem 0.75rem;
+}

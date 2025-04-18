@@ -1,0 +1,86 @@
+/* loginPage.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login-page {
+  max-width: 420px;
+  margin: 48px auto;
+  padding: 32px 36px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(51, 65, 85, 0.2);
+}
+
+.login-page h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 28px;
+  color: #334155;
+}
+
+.login-page form > div {
+  margin-top: 20px;
+}
+
+.login-page label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.login-page input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  background: #ffffff;
+  border: 1px solid #aaafb6;
+  border-radius: 8px;
+  color: #334155;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.login-page input::placeholder {
+  color: #aaafb6;
+}
+
+.login-page input:focus {
+  outline: none;
+  border-color: #334155;
+  box-shadow: 0 0 0 3px rgba(51, 65, 85, 0.25);
+}
+
+.login-page button {
+  width: 100%;
+  padding: 14px 0;
+  margin-top: 32px;
+  background: #334155;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+}
+
+.login-page button:hover {
+  opacity: 0.9;
+}
+
+.login-page button:active {
+  transform: scale(0.97);
+}
+
+.login-page .error {
+  margin-top: 20px;
+  color: #aaafb6;
+  font-size: 0.9rem;
+  text-align: center;
+}
